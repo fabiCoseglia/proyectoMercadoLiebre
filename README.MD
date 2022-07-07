@@ -1,3 +1,6 @@
-# TRABAJO PRÁCTICO ESTRUCTURA-WEB
+# TRABAJO PRÁCTICO Mercado Liebre
 ## Integrante: Fabian Coseglia
-### Descripción: copiar una estructura web en HTML + levantar servidor en express
+### Descripción: agregar estilos e iconos al header y footer;
+
+
+![](vistaPrevia/Sin%20t%C3%ADtulo-1.png)
