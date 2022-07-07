@@ -1,6 +1,3 @@
-# TRABAJO PRÁCTICO Mercado Liebre
+# Mercado Liebre 3
 ## Integrante: Fabian Coseglia
-### Descripción: agregar estilos e iconos al header y footer;
-
-
-![](vistaPrevia/Sin%20t%C3%ADtulo-1.png)
+### Descripción: agregando estilos, articulos y posicionando objetos con css
