@@ -105,10 +105,6 @@ body.index{
 
 /*MAIN*/
 
-.index{
-
-}
-
 .index__main{
     display: flex;
     flex-direction: column;
