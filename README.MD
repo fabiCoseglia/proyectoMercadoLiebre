@@ -30,3 +30,8 @@ manera:
 
 ## REVIEW del desafío alcanzado:
 
+![Desafio Mobile](https://user-images.githubusercontent.com/106203854/179639782-a0906386-aa03-40d8-9466-338ac88c2f2b.png)
+![Desafio Tablet](https://user-images.githubusercontent.com/106203854/179639867-a2bd3015-af33-4dee-b3d7-07e10ab10c92.png)
+![Desafio Desktop](https://user-images.githubusercontent.com/106203854/179639899-247680c2-1eca-4340-81cf-482f8c84c3cb.png)
+
+
