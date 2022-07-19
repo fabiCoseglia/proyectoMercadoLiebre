@@ -6,7 +6,7 @@ Seguimos en etapa de organización, ahora que tenemos más herramientas como Fle
 podemos empezar a manejar nuestros elementos para que se posicionen según los
 requerimientos del diseño de nuestro sitio.
 
-* Lograr que el precio y el descuento de los artículos estén en el mismo
+* Lograr que el precio y el dgit pullescuento de los artículos estén en el mismo
 renglón, donde el precio ocupa el 30% y el descuento el 70% del total del
 renglón.
 
