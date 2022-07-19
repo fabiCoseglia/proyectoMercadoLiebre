@@ -26,7 +26,7 @@ body.index{
     flex-wrap: wrap;
     align-items: center;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .index .index__header__logo,
 .index__header__form{
@@ -48,8 +48,7 @@ body.index{
     background-color: var(--amarillo);
     display: flex;
     flex-direction: column;
-    padding: 15px;
-
+    padding: 10px;
 }
 
 .index__header__logo{
@@ -68,10 +67,6 @@ body.index{
 
 .index__header__menu ul{
     padding: 0;
-}
-
-.index__header__ul--shop{
-    margin-bottom: 20px;
 }
 
 .index .fa-magnifying-glass{
@@ -240,11 +235,36 @@ body.index{
     display: block;
 }
 
+.index .burger-menu{
+    display: none;
+}
+
 /*HEADER FLEXBOX TABLET*/
 .index .index__header__logo,
 .index__header__form{
     width: 30%;
 }
+.index__header__menu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.index__header__ul--shop,
+.index__header__ul--user{
+    display: flex;
+    gap: 15px;
+}
+
+.index__header__ul--shop li a,
+.index__header__ul--user li a{
+    font-size: 15px;
+}
+
+.index__header__ul--user li i{
+    margin-left: 5px;
+}
+
 
 }
 
