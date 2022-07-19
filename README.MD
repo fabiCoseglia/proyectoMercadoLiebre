@@ -1,7 +1,7 @@
 # Mercado Liebre 4
 ## Integrante: Fabian Coseglia
-### Objetivo:
 
+### Micro desafíos - Paso I
 Seguimos en etapa de organización, ahora que tenemos más herramientas como Flexbox
 podemos empezar a manejar nuestros elementos para que se posicionen según los
 requerimientos del diseño de nuestro sitio.
