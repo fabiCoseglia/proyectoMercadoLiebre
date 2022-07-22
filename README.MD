@@ -25,5 +25,15 @@ usuario y una contraseña, ingresar/loguearse al mismo.
 
 ## REVIEW del desafío alcanzado:
 
-###Login responsive:
+### Login:
+
+![loginMobile](https://user-images.githubusercontent.com/106203854/180360746-5e63cee2-642b-4fd6-bd1e-db4dfddfee48.png)
+![loginDesktop](https://user-images.githubusercontent.com/106203854/180360764-2da16c56-632a-4c14-a8ad-95df001cdc8d.png)
+
+### Register:
+
+![registerMobile](https://user-images.githubusercontent.com/106203854/180360816-5fa752a6-e51e-43ac-a224-a4ec4bd4ec49.png)
+![registerMobile](https://user-images.githubusercontent.com/106203854/180360838-45215741-ddd8-46f5-aca2-8d0442cd2755.png)
+
+
 
