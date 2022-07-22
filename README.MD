@@ -33,7 +33,8 @@ usuario y una contraseña, ingresar/loguearse al mismo.
 ### Register:
 
 ![registerMobile](https://user-images.githubusercontent.com/106203854/180360816-5fa752a6-e51e-43ac-a224-a4ec4bd4ec49.png)
-![registerMobile](https://user-images.githubusercontent.com/106203854/180360838-45215741-ddd8-46f5-aca2-8d0442cd2755.png)
+![registerDesktop](https://user-images.githubusercontent.com/106203854/180360947-e64ffebf-7731-4e21-b7e4-759aa32760e3.png)
+
 
 
 
