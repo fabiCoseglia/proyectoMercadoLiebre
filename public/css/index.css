@@ -105,7 +105,14 @@ body.index{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 90%; 
+    width: 100%; 
+}
+
+.index__main section article img {
+    width: 200px;
+}
+.index__main__banner{
+    width: 100%;
 }
 
 .main__section--ofertas article,
@@ -163,9 +170,7 @@ body.index{
 }
 
 
-.index__main img{
-    width: 200px;
-}
+
 
 
 
