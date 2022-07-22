@@ -37,7 +37,15 @@ border-radius: 5px;
     border-radius: 8px;
     align-items: center;
 }
-
+.register__main__form--fotoPerfil{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    background: white;
+    height: 35px;
+    border-radius: 8px;
+    align-items: center;
+}
 .register__main__form--radioContainer input{
     margin-right: 5px;
 }
@@ -54,12 +62,37 @@ border-radius: 5px;
     flex-wrap: wrap;
 }
 
-.register__main__form--enviar{
+.register__main__form--boronContainer{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.register__main__form--enviar,
+.register__main__form--borrar{
     height: 35px;
     background: var(--azul);
     color: white;
     margin-top: 25px;
     border-radius: 8px;
     border: 0;
-    box-shadow: 1px 1px 1.5px #666
+    box-shadow: 1px 1px 1.5px #666;
+    width: 50%;
+}
+
+@media (min-width: 1024px){
+    .register__main__form{
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .register__main__form--boronContainer{
+    justify-content: space-evenly;
+    }
+
+    .register__main__form--enviar,
+    .register__main__form--borrar
+    { 
+        width: 25%;
+    }
+
 }

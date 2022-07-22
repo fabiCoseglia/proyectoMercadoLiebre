@@ -25,11 +25,62 @@
 }
 
 .login__main__form--enviar{
-    height: 45px;
+    padding: 15px;
     background: var(--azul);
     color: white;
-    margin-top: 25px;
     border-radius: 8px;
     border: 0;
-    box-shadow: 1px 1px 1.5px #666
+    box-shadow: 1px 1px 1.5px #666;
+    text-decoration: none;
+    text-align: center;
+    font-family: roboto;
+    
+}
+
+.login__main__form span{
+    color: red;
+    font-size: 10px;
+    display: inline-block;
+    margin-top: -18px;
+}
+
+.login__main__form p{
+    text-align: center;
+    font-size: var(--fontSizeText);
+    font-family: roboto;
+}
+
+.login__main__form p a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--grisOscuro);
+    font-size: var(--fontSizeText);
+}
+
+@media (min-width: 768px){
+    .login__main{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .login__main__form{
+        padding: 30px;
+        width: 80%;
+    }
+
+    .login__main__form span{
+        font-size: 13px;
+    }
+    
+    .login__main__form p,
+    .login__main__form p a{
+        font-size: 16px
+    }
+
+}
+
+@media (min-width: 1024px){
+    .login__main__form{
+        align-items: center;
+    }
 }

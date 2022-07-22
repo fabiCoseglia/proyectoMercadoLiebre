@@ -47,15 +47,19 @@
 
     <main class="login__main">
 
-        <form class="login__main__form" action="/login" name="login" method="POST">
+        <form class="login__main__form" action="/login" name="login">
 
             <label class="login__main__form--titles" for="datos">Ingresá a tu cuenta</label>
             
             <input class="login__main__form--input" type="text" name="nickname" placeholder="Nombre de Usuario">
+            <span>Nombre de usuario incorrecto</span>
+            
             <input class="login__main__form--input"type="password" name="Password" id="" placeholder="Password">
-        
-            <button class="login__main__form--enviar" type="submit">Enviar</button>
+            <span>contraseña incorrecta</span>
 
+            <p>¿No tienes cuenta? <a href="/register">Registrate</a></p>
+        
+            <a class="login__main__form--enviar" href="/">Ingresar</a>
 
         </form>
 
@@ -67,15 +71,15 @@
             <article class="index__footer__section__article">
                 <div class="index__footer__icon"><i class="fa-solid fa-credit-card"></i></div>
                 <h4>Pagá con tarjeta o en efectivo</h4>
-                <p>Con Mercado Liebre Cash, tenés cuotas sin<br> interés con tarjeta o efectivo en puntos de<br> pago.
-                    ¡Y siempre es seguro!</p>
+                <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago.
+                ¡Y siempre es seguro!</p>
             </article>
         </section>
         <section>
             <article class="index__footer__section__article">
                 <div class="index__footer__icon"><i class="fa-solid fa-gift"></i></div>
                 <h4>Envío gratis desde $2.500</h4>
-                <p>Solo por estar registrad@ en Mercado Liebre <br>tenés envíos gratis en miles de productos. Es <br>un
+                <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un
                     beneficio de Mercado Puntos</p>
             </article>
         </section>
@@ -83,8 +87,8 @@
             <article class="index__footer__section__article">
                 <div class="index__footer__icon"><i class="fa-solid fa-user-shield"></i></div>
                 <h4>Seguridad, de principio a fin</h4>
-                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, <br>no hay nada que no puedas hacer porque<br> estás
-                    siempre protegid@.</p>
+                <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer porque estás
+                 siempre protegid@.</p>
             </article>
         </section>
         <section>
