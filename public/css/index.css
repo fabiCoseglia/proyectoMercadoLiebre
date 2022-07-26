@@ -170,7 +170,10 @@ body.index{
 }
 
 
-
+/*HOVERS*/
+.index h4:hover{
+    display: block;
+}
 
 
 
@@ -199,6 +202,10 @@ body.index{
     margin-bottom: 10px;
 }
 
+.index__footer__section__article p{
+    font-family: roboto;
+}
+
 .index__footer h6{
     color: var(--grisOscuro);
 }
@@ -217,13 +224,34 @@ body.index{
 
 
 @media (min-width: 768px){
-    .main__section--ofertas article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    .index__main--articleContainer{
+        height: 360px;
     }
-    .index h4{
-        display: block;
-    } /*LOS H4 se empiezan a ver desde TABLET debido a consignas del ejercicio anterior*/
+    .main__section--ofertas article{
+       transition: all 0.5s;
 
+    }
+    
+    .main__section--ofertas article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        height: 350px;
+        
+    }
+
+    .index h4{
+        display: none;
+    }
+    
+    .main__section--ofertas article:hover h4{
+    display: block;    
+    }
+
+    .fa-truck{
+        transition: all 1s;
+    }
+    .fa-truck:hover{
+        transform: rotateY(360deg);
+    }
     /*DISPLAY ARTICLES TABLET*/
     .index article.displayTablet{
         display: flex;
@@ -270,6 +298,7 @@ body.index{
     margin-left: 5px;
 }
 
+/*HOVERS*/
 
 }
 
@@ -278,5 +307,20 @@ body.index{
     .index .index__main--articleContainer article{
         display: flex;
         width: 90%;
+    }
+
+    .index__footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center
+    }
+
+    .index__footer__icon:hover{
+        color: var(--amarillo);
+    }
+    .index__footer__section__small{
+        width: 100%;
+        text-align: center;
     }
 }
